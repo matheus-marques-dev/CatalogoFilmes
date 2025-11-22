@@ -1,47 +1,49 @@
-# 🎬 MovieStack
+# MovieStack
 
-> Um catálogo interativo de filmes e séries que simula a interface de plataformas de streaming, com foco em performance e experiência do usuário.
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
+![Event](https://img.shields.io/badge/Imersão_Dev-Alura_%2B_Gemini-blue?style=for-the-badge)
 
-# Sobre o Projeto
+> Aplicação web de catálogo de filmes desenvolvida durante a **Imersão Dev da Alura em parceria com o Google Gemini**.
 
-O **MovieStack** é uma aplicação Front-end desenvolvida para consolidar conhecimentos em manipulação do DOM, consumo de APIs e layouts responsivos modernos.
+## Visualização do Projeto
 
-O sistema carrega dinamicamente uma lista de filmes e séries a partir de um arquivo JSON e oferece uma interface de busca reativa, permitindo que o usuário encontre títulos instantaneamente sem recarregar a página.
-
-# Principais Funcionalidades
-
-- **Busca Avançada em Tempo Real:**
-  - O algoritmo de filtro verifica **Título**, **Gênero** e **Ano de Lançamento** simultaneamente.
-  - Ex: Ao digitar "1994", o sistema retorna filmes lançados nesse ano.
-- **Consumo de Dados Assíncrono:**
-  - Utilização da `Fetch API` com `Async/Await` para leitura de dados JSON.
-- **Layout Totalmente Responsivo:**
-  - Construído com **CSS Grid** (`repeat(auto-fill, minmax...)`), garantindo que os cards se organizem perfeitamente em qualquer tamanho de tela (Mobile, Tablet e Desktop).
-- **UI/UX Moderna:**
-  - Identidade visual "Dark Mode" inspirada na Netflix.
-  - Efeitos de transição (`hover`), badges de nota dourados e tratamento de erros (mensagem amigável quando a busca não retorna resultados).
+![Preview do MovieStack](https://via.placeholder.com/800x400/141414/e50914?text=Insira+o+Print+do+Seu+Site+Aqui)
+*(Substitua este link pela imagem real do seu projeto)*
 
 ---
 
-# Tecnologias Utilizadas
+## Sobre o Projeto
 
-- **HTML5:** Estrutura semântica e acessível.
-- **CSS3:**
-  - **CSS Grid & Flexbox:** Para estruturação do layout.
-  - **CSS Variables:** Para gerenciamento eficiente de paleta de cores.
-  - **Media Queries:** Para adaptação mobile.
-- **JavaScript (ES6+):**
-  - Manipulação do DOM.
-  - Métodos de Array (`filter`, `map`, `includes`).
-  - Programação Assíncrona (`fetch`).
+O **MovieStack** é o resultado prático de uma semana intensiva de aprendizado. O objetivo foi criar uma aplicação Front-end do zero, utilizando inteligência artificial (Google Gemini) como ferramenta de apoio para acelerar o desenvolvimento e otimizar o código.
+
+O projeto simula uma interface de streaming (VOD), focando em **lógica de programação com JavaScript** e **design responsivo**.
+
+### Funcionalidades Implementadas
+
+- ** Favoritos Persistentes:** Uso de `localStorage` para salvar filmes preferidos mesmo após fechar o navegador.
+- ** Busca Dinâmica:** Filtragem em tempo real por título, gênero ou ano.
+- ** UX/UI Aprimorada:**
+  - **Skeleton Loading:** Feedback visual de carregamento.
+  - **Modal:** Exibição de detalhes em janela sobreposta.
+  - **Ordenação:** Classificação por nota, lançamentos ou ordem alfabética.
+- ** Responsividade:** Layout fluido com CSS Grid e Flexbox.
 
 ---
 
-# Estrutura do Projeto
+## Tecnologias Utilizadas
 
-```bash
+- **HTML5 & CSS3:** Estrutura e Estilização (Dark Mode).
+- **JavaScript (ES6+):** Lógica de manipulação do DOM e consumo de dados.
+- **Google Gemini:** Utilizado para auxílio na lógica de busca, geração de massa de dados (JSON) e refatoração de código.
+
+---
+
+## Estrutura do Projeto
+
+bash
 MovieStack/
-├── index.html      # Estrutura principal
-├── style.css       # Estilização e responsividade
-├── script.js       # Lógica de consumo de dados e busca
-└── data.json       # Banco de dados local dos filmes
+├── index.html      # Estrutura e Modal
+├── style.css       # Estilos e Responsividade
+├── script.js       # Lógica JS (Busca, Favoritos, Renderização)
+├── data.json       # Dados dos filmes
+└── README.md       # Documentação
