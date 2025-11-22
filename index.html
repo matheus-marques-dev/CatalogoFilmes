@@ -10,31 +10,48 @@
 <body>
     <header>
         <h1>MovieStack 🎬</h1>
-        <div>
-            <input type="text" placeholder="Digite nome, gênero ou ano...">
-            <button id="botao-busca">Buscar</button>
+        
+        <div class="controles">
+            <div class="busca-container">
+                <input type="text" placeholder="Pesquise por nome, ano ou gênero...">
+                <button id="botao-busca">🔍</button>
+            </div>
+
+            <div class="filtros-container">
+                <div class="tags-filtro">
+                    <button class="filtro-btn ativo" data-filtro="todos">Todos</button>
+                    <button class="filtro-btn" data-filtro="favoritos">❤️ Meus Favoritos</button>
+                </div>
+
+                <select id="ordenacao">
+                    <option value="padrao">Ordenar por...</option>
+                    <option value="nota">⭐ Melhores Avaliados</option>
+                    <option value="ano-novo">📅 Lançamentos (Novos)</option>
+                    <option value="ano-velho">📅 Clássicos (Antigos)</option>
+                    <option value="a-z">🔤 Ordem Alfabética</option>
+                </select>
+            </div>
         </div>
     </header>
 
     <main>
         <section class="card-container">
-            <p style="text-align: center; color: #9aa0a6; margin-top: 2rem;">
-                Carregando catálogo...
-             </p>
-        </section>
+            </section>
     </main>
+
+    <div id="modal-overlay" class="fechado">
+        <div class="modal-content">
+            <span class="fechar-modal">&times;</span>
+            <div class="modal-body">
+                </div>
+        </div>
+    </div>
 
     <footer class="footer">
         <ul class="footer-links">
-            <li>
-                <a href="https://github.com/matheus-marques-dev" target="_blank">Github</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/matheus-marques-34227532a/" target="_blank">LinkedIn</a>
-            </li>
-            <li>
-                <a href="https://www.alura.com.br" target="_blank">Alura</a>
-            </li>
+            <li><a href="https://github.com/matheus-marques-dev" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/matheus-marques-34227532a/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.alura.com.br" target="_blank">Alura</a></li>
         </ul>
     </footer>
     <script src="script.js"></script>
