@@ -1,6 +1,6 @@
 # MovieStack
 
-## 🖼️ Visualização do Projeto
+## Visualização do Projeto
 
 https://matheus-marques-dev.github.io/CatalogoFilmes/
 
