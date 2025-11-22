@@ -1,17 +1,5 @@
 # MovieStack
 
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
-![Event](https://img.shields.io/badge/Imersão_Dev-Alura_%2B_Gemini-blue?style=for-the-badge)
-
-> Aplicação web de catálogo de filmes desenvolvida durante a **Imersão Dev da Alura em parceria com o Google Gemini**.
-
-## Visualização do Projeto
-
-![Preview do MovieStack](https://via.placeholder.com/800x400/141414/e50914?text=Insira+o+Print+do+Seu+Site+Aqui)
-*(Substitua este link pela imagem real do seu projeto)*
-
----
-
 ## Sobre o Projeto
 
 O **MovieStack** é o resultado prático de uma semana intensiva de aprendizado. O objetivo foi criar uma aplicação Front-end do zero, utilizando inteligência artificial (Google Gemini) como ferramenta de apoio para acelerar o desenvolvimento e otimizar o código.
