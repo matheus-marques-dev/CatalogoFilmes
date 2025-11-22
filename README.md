@@ -1,8 +1,5 @@
 # 🎬 MovieStack
 
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
-![Tech](https://img.shields.io/badge/HTML5-CSS3-JavaScript-blue?style=for-the-badge)
-
 > Um catálogo interativo de filmes e séries que simula a interface de plataformas de streaming, com foco em performance e experiência do usuário.
 
 ## 💻 Sobre o Projeto
