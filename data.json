@@ -1,0 +1,546 @@
+[
+  {
+    "titulo": "Um Sonho de Liberdade",
+    "sinopse": "Dois homens presos se reúnem ao longo de vários anos, encontrando consolo e eventual redenção através de atos de decência comum.",
+    "ano": 1994,
+    "genero": "Drama",
+    "nota": "9.3",
+    "link": "https://www.imdb.com/title/tt0111161/"
+  },
+  {
+    "titulo": "O Poderoso Chefão",
+    "sinopse": "O patriarca idoso de uma dinastia do crime organizado transfere o controle de seu império clandestino para seu filho relutante.",
+    "ano": 1972,
+    "genero": "Crime / Drama",
+    "nota": "9.2",
+    "link": "https://www.imdb.com/title/tt0068646/"
+  },
+  {
+    "titulo": "Batman: O Cavaleiro das Trevas",
+    "sinopse": "Quando a ameaça conhecida como Coringa causa estragos e caos em Gotham, Batman deve aceitar um dos maiores testes psicológicos e físicos.",
+    "ano": 2008,
+    "genero": "Ação",
+    "nota": "9.0",
+    "link": "https://www.imdb.com/title/tt0468569/"
+  },
+  {
+    "titulo": "O Senhor dos Anéis: O Retorno do Rei",
+    "sinopse": "Gandalf e Aragorn lideram o Mundo dos Homens contra o exército de Sauron para desviar o olhar de Frodo e Sam enquanto eles se aproximam da Montanha da Perdição.",
+    "ano": 2003,
+    "genero": "Fantasia",
+    "nota": "9.0",
+    "link": "https://www.imdb.com/title/tt0167260/"
+  },
+  {
+    "titulo": "A Lista de Schindler",
+    "sinopse": "Na Polônia ocupada pelos alemães durante a Segunda Guerra Mundial, o industrial Oskar Schindler se preocupa com seus trabalhadores judeus.",
+    "ano": 1993,
+    "genero": "Biografia / Histórico",
+    "nota": "9.0",
+    "link": "https://www.imdb.com/title/tt0108052/"
+  },
+  {
+    "titulo": "Pulp Fiction: Tempo de Violência",
+    "sinopse": "As vidas de dois assassinos da máfia, um boxeador, a esposa de um gângster e dois bandidos de lanchonete se entrelaçam em quatro histórias de violência e redenção.",
+    "ano": 1994,
+    "genero": "Crime",
+    "nota": "8.9",
+    "link": "https://www.imdb.com/title/tt0110912/"
+  },
+  {
+    "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+    "sinopse": "Um manso hobbit do Condado e oito companheiros partem em uma jornada para destruir o poderoso Um Anel e salvar a Terra-média das Trevas.",
+    "ano": 2001,
+    "genero": "Fantasia",
+    "nota": "8.9",
+    "link": "https://www.imdb.com/title/tt0120737/"
+  },
+  {
+    "titulo": "Forrest Gump: O Contador de Histórias",
+    "sinopse": "As presidências de Kennedy e Johnson, a Guerra do Vietnã e outros eventos históricos se desenrolam através da perspectiva de um homem do Alabama com baixo QI.",
+    "ano": 1994,
+    "genero": "Drama / Romance",
+    "nota": "8.8",
+    "link": "https://www.imdb.com/title/tt0109830/"
+  },
+  {
+    "titulo": "A Origem",
+    "sinopse": "Um ladrão que rouba segredos corporativos através do uso de tecnologia de compartilhamento de sonhos recebe a tarefa inversa de plantar uma ideia na mente de um CEO.",
+    "ano": 2010,
+    "genero": "Ficção Científica",
+    "nota": "8.8",
+    "link": "https://www.imdb.com/title/tt1375666/"
+  },
+  {
+    "titulo": "Clube da Luta",
+    "sinopse": "Um trabalhador de escritório insone e um fabricante de sabonetes descuidado formam um clube de luta subterrâneo que evolui para algo muito maior.",
+    "ano": 1999,
+    "genero": "Drama",
+    "nota": "8.8",
+    "link": "https://www.imdb.com/title/tt0137523/"
+  },
+  {
+    "titulo": "Matrix",
+    "sinopse": "Um hacker aprende com rebeldes misteriosos sobre a verdadeira natureza de sua realidade e seu papel na guerra contra seus controladores.",
+    "ano": 1999,
+    "genero": "Ação / Sci-Fi",
+    "nota": "8.7",
+    "link": "https://www.imdb.com/title/tt0133093/"
+  },
+  {
+    "titulo": "Os Bons Companheiros",
+    "sinopse": "A história de Henry Hill e sua vida na máfia, cobrindo seu relacionamento com sua esposa Karen Hill e seus parceiros de crime Jimmy Conway e Tommy DeVito.",
+    "ano": 1990,
+    "genero": "Crime / Biografia",
+    "nota": "8.7",
+    "link": "https://www.imdb.com/title/tt0099685/"
+  },
+  {
+    "titulo": "Cidade de Deus",
+    "sinopse": "Nas favelas do Rio, os caminhos de duas crianças divergem enquanto uma luta para se tornar fotógrafa e a outra se torna chefe do tráfico.",
+    "ano": 2002,
+    "genero": "Crime / Brasileiro",
+    "nota": "8.6",
+    "link": "https://www.imdb.com/title/tt0317248/"
+  },
+  {
+    "titulo": "O Silêncio dos Inocentes",
+    "sinopse": "Uma jovem cadete do F.B.I. deve receber a ajuda de um assassino canibal encarcerado e manipulador para ajudar a capturar outro serial killer.",
+    "ano": 1991,
+    "genero": "Suspense / Crime",
+    "nota": "8.6",
+    "link": "https://www.imdb.com/title/tt0102926/"
+  },
+  {
+    "titulo": "Star Wars: O Império Contra-Ataca",
+    "sinopse": "Darth Vader persegue Luke Skywalker e o resto da Aliança através da galáxia. Enquanto isso, Luke começa seu treinamento Jedi com Yoda.",
+    "ano": 1980,
+    "genero": "Ficção Científica",
+    "nota": "8.7",
+    "link": "https://www.imdb.com/title/tt0080684/"
+  },
+  {
+    "titulo": "Interestelar",
+    "sinopse": "Uma equipe de exploradores viaja através de um buraco de minhoca no espaço, na tentativa de garantir a sobrevivência da humanidade.",
+    "ano": 2014,
+    "genero": "Ficção Científica",
+    "nota": "8.7",
+    "link": "https://www.imdb.com/title/tt0816692/"
+  },
+  {
+    "titulo": "A Viagem de Chihiro",
+    "sinopse": "Durante a mudança de sua família para o subúrbio, uma menina de 10 anos vaga por um mundo governado por deuses, bruxas e espíritos.",
+    "ano": 2001,
+    "genero": "Animação",
+    "nota": "8.6",
+    "link": "https://www.imdb.com/title/tt0245429/"
+  },
+  {
+    "titulo": "À Espera de um Milagre",
+    "sinopse": "As vidas dos guardas no corredor da morte são afetadas por um de seus prisioneiros: um homem negro acusado de assassinato e estupro infantil, mas que tem um dom misterioso.",
+    "ano": 1999,
+    "genero": "Drama / Fantasia",
+    "nota": "8.6",
+    "link": "https://www.imdb.com/title/tt0120689/"
+  },
+  {
+    "titulo": "A Vida é Bela",
+    "sinopse": "Quando um bibliotecário judeu e seu filho se tornam vítimas do Holocausto, ele usa uma mistura perfeita de vontade, humor e imaginação para proteger seu filho.",
+    "ano": 1997,
+    "genero": "Comédia / Drama / Guerra",
+    "nota": "8.6",
+    "link": "https://www.imdb.com/title/tt0118799/"
+  },
+  {
+    "titulo": "O Resgate do Soldado Ryan",
+    "sinopse": "Após o desembarque na Normandia, um grupo de soldados americanos vai para trás das linhas inimigas para recuperar um paraquedista cujos irmãos foram mortos em ação.",
+    "ano": 1998,
+    "genero": "Guerra / Drama",
+    "nota": "8.6",
+    "link": "https://www.imdb.com/title/tt0120863/"
+  },
+  {
+    "titulo": "Se7en: Os Sete Crimes Capitais",
+    "sinopse": "Dois detetives, um novato e um veterano, caçam um serial killer que usa os sete pecados capitais como motivos.",
+    "ano": 1995,
+    "genero": "Suspense / Crime",
+    "nota": "8.6",
+    "link": "https://www.imdb.com/title/tt0114369/"
+  },
+  {
+    "titulo": "O Rei Leão",
+    "sinopse": "O príncipe leão Simba e seu pai são alvo de seu tio amargo, que quer ascender ao trono.",
+    "ano": 1994,
+    "genero": "Animação",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0110357/"
+  },
+  {
+    "titulo": "Parasita",
+    "sinopse": "A cobiça e a discriminação de classe ameaçam a relação simbiótica recém-formada entre a rica família Park e o clã indigente Kim.",
+    "ano": 2019,
+    "genero": "Suspense / Drama",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt6751668/"
+  },
+  {
+    "titulo": "De Volta para o Futuro",
+    "sinopse": "Marty McFly, um estudante do ensino médio de 17 anos, é acidentalmente enviado trinta anos para o passado em um DeLorean viajante do tempo.",
+    "ano": 1985,
+    "genero": "Aventura / Sci-Fi",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0088763/"
+  },
+  {
+    "titulo": "O Exterminador do Futuro 2",
+    "sinopse": "Um ciborgue, idêntico àquele que falhou em matar Sarah Connor, deve agora proteger seu filho adolescente de um ciborgue mais avançado e poderoso.",
+    "ano": 1991,
+    "genero": "Ação / Sci-Fi",
+    "nota": "8.6",
+    "link": "https://www.imdb.com/title/tt0103064/"
+  },
+  {
+    "titulo": "Psicose",
+    "sinopse": "Uma secretária em fuga rouba 40 mil dólares de seu empregador e faz check-in em um motel remoto administrado por um jovem sob o domínio de sua mãe.",
+    "ano": 1960,
+    "genero": "Terror / Suspense",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0054215/"
+  },
+  {
+    "titulo": "Gladiador",
+    "sinopse": "Um ex-general romano decide se vingar do imperador corrupto que assassinou sua família e o enviou para a escravidão.",
+    "ano": 2000,
+    "genero": "Ação / Drama",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0172495/"
+  },
+  {
+    "titulo": "Whiplash: Em Busca da Perfeição",
+    "sinopse": "Um jovem baterista promissor se matricula em um conservatório de música onde seus sonhos de grandeza são mentoreados por um instrutor que não parará por nada.",
+    "ano": 2014,
+    "genero": "Drama / Música",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt2582802/"
+  },
+  {
+    "titulo": "Homem-Aranha: No Aranhaverso",
+    "sinopse": "O adolescente Miles Morales se torna o Homem-Aranha de seu universo e deve se juntar a cinco indivíduos com poderes de aranha de outras dimensões.",
+    "ano": 2018,
+    "genero": "Animação / Ação",
+    "nota": "8.4",
+    "link": "https://www.imdb.com/title/tt4633694/"
+  },
+  {
+    "titulo": "Vingadores: Ultimato",
+    "sinopse": "Após os eventos devastadores de Guerra Infinita, o universo está em ruínas. Com a ajuda dos aliados restantes, os Vingadores se reúnem para reverter as ações de Thanos.",
+    "ano": 2019,
+    "genero": "Ação",
+    "nota": "8.4",
+    "link": "https://www.imdb.com/title/tt4154796/"
+  },
+  {
+    "titulo": "Coringa",
+    "sinopse": "Em Gotham City, o comediante mentalmente perturbado Arthur Fleck é desconsiderado e maltratado pela sociedade, iniciando uma espiral de revolução e crime.",
+    "ano": 2019,
+    "genero": "Drama / Crime",
+    "nota": "8.4",
+    "link": "https://www.imdb.com/title/tt7286456/"
+  },
+  {
+    "titulo": "O Iluminado",
+    "sinopse": "Uma família se dirige para um hotel isolado para o inverno, onde uma presença espiritual maligna influencia o pai à violência.",
+    "ano": 1980,
+    "genero": "Terror",
+    "nota": "8.4",
+    "link": "https://www.imdb.com/title/tt0081505/"
+  },
+  {
+    "titulo": "WALL·E",
+    "sinopse": "Em um futuro distante, um pequeno robô coletor de lixo inadvertidamente embarca em uma jornada espacial que decidirá o destino da humanidade.",
+    "ano": 2008,
+    "genero": "Animação / Sci-Fi",
+    "nota": "8.4",
+    "link": "https://www.imdb.com/title/tt0910970/"
+  },
+  {
+    "titulo": "Viva: A Vida é uma Festa",
+    "sinopse": "O aspirante a músico Miguel, confrontado com a proibição ancestral de música de sua família, entra na Terra dos Mortos para encontrar seu tataravô.",
+    "ano": 2017,
+    "genero": "Animação / Aventura",
+    "nota": "8.4",
+    "link": "https://www.imdb.com/title/tt2380307/"
+  },
+  {
+    "titulo": "Toy Story",
+    "sinopse": "Um boneco cowboy é profundamente ameaçado e ciumento quando uma nova figura de ação spaceman o substitui como o brinquedo principal no quarto de um menino.",
+    "ano": 1995,
+    "genero": "Animação",
+    "nota": "8.3",
+    "link": "https://www.imdb.com/title/tt0114709/"
+  },
+  {
+    "titulo": "The Godfather Part II",
+    "sinopse": "A saga da família Corleone continua, explorando a ascensão de Vito Corleone em Nova York e a consolidação do poder de seu filho, Michael, enquanto lida com conflitos internos e externos.",
+    "ano": 1974,
+    "genero": "Crime / Drama",
+    "nota": "9.0",
+    "link": "https://www.imdb.com/title/tt0071562/"
+  },
+  {
+    "titulo": "12 Angry Men",
+    "sinopse": "Doze jurados se reúnem para decidir o destino de um jovem acusado de assassinato. A princípio, apenas um jurado acredita na dúvida razoável, forçando os demais a reexaminar as evidências.",
+    "ano": 1957,
+    "genero": "Drama",
+    "nota": "9.0",
+    "link": "https://www.imdb.com/title/tt0050083/"
+  },
+  {
+    "titulo": "The Good, the Bad and the Ugly",
+    "sinopse": "Durante a Guerra Civil Americana, três pistoleiros competem desesperadamente para encontrar uma fortuna em ouro enterrada, confiando uns nos outros apenas o suficiente para sobreviver.",
+    "ano": 1966,
+    "genero": "Faroeste",
+    "nota": "8.8",
+    "link": "https://www.imdb.com/title/tt0060196/"
+  },
+  {
+    "titulo": "Léon: The Professional",
+    "sinopse": "Léon, um assassino profissional, relutantemente acolhe Mathilda, uma jovem de 12 anos cuja família foi assassinada por um agente corrupto da DEA, e a treina nos caminhos de sua profissão.",
+    "ano": 1994,
+    "genero": "Crime / Drama / Thriller",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0110413/"
+  },
+  {
+    "titulo": "The Usual Suspects",
+    "sinopse": "Após um tiroteio e um incêndio em um navio, um pequeno vigarista coxo, Roger 'Verbal' Kint, é interrogado pela polícia para desvendar o que realmente aconteceu e quem é o mítico chefão do crime Keyser Söze.",
+    "ano": 1995,
+    "genero": "Crime / Mistério / Thriller",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0114814/"
+  },
+  {
+    "titulo": "Once Upon a Time in the West",
+    "sinopse": "Um misterioso homem com uma gaita se junta a um notório bandido para proteger uma linda viúva de um assassino implacável que trabalha para o magnata das ferrovias.",
+    "ano": 1968,
+    "genero": "Faroeste",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0064116/"
+  },
+  {
+    "titulo": "Rear Window",
+    "sinopse": "Um fotógrafo confinado à sua cadeira de rodas em seu apartamento em Greenwich Village começa a espionar seus vizinhos e fica convencido de que testemunhou um assassinato.",
+    "ano": 1954,
+    "genero": "Mistério / Thriller",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0047396/"
+  },
+  {
+    "titulo": "Casablanca",
+    "sinopse": "Durante a Segunda Guerra Mundial, em Casablanca, Marrocos, um cínico dono de boate americano deve escolher entre seu amor por uma mulher e ajudar ela e seu marido, um líder da Resistência, a fugir dos nazistas.",
+    "ano": 1942,
+    "genero": "Drama / Romance / Guerra",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0034583/"
+  },
+  {
+    "titulo": "Modern Times",
+    "sinopse": "O Vagabundo de Chaplin luta para sobreviver no mundo moderno e industrializado, encontrando trabalho na linha de montagem e vivendo uma série de desventuras cômicas.",
+    "ano": 1936,
+    "genero": "Comédia / Drama / Romance",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0027977/"
+  },
+  {
+    "titulo": "Harakiri",
+    "sinopse": "Um samurai desonrado chega ao feudo de um senhor feudal na esperança de ter um lugar adequado para cometer o ritual de suicídio (Harakiri), mas acaba revelando uma trágica história de traição e desespero.",
+    "ano": 1962,
+    "genero": "Ação / Drama / Mistério",
+    "nota": "8.6",
+    "link": "https://www.imdb.com/title/tt0056058/"
+  },
+  {
+    "titulo": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "sinopse": "Um general americano enlouquecido ordena um ataque nuclear contra a União Soviética. O presidente e seus conselheiros tentam desesperadamente impedir que as bombas atinjam seus alvos e evitar uma Terceira Guerra Mundial.",
+    "ano": 1964,
+    "genero": "Comédia / Guerra",
+    "nota": "8.4",
+    "link": "https://www.imdb.com/title/tt0057012/"
+  },
+  {
+    "titulo": "Amélie",
+    "sinopse": "Amélie Poulain, uma garçonete parisiense, decide mudar a vida das pessoas ao seu redor para melhor, ao mesmo tempo em que luta com sua própria solidão e busca pelo amor.",
+    "ano": 2001,
+    "genero": "Comédia / Romance",
+    "nota": "8.3",
+    "link": "https://www.imdb.com/title/tt0211915/"
+  },
+  {
+    "titulo": "Alien",
+    "sinopse": "A tripulação de uma nave comercial espacial responde a um sinal de socorro em um planeta distante. Eles descobrem formas de vida hostis que ameaçam sua sobrevivência.",
+    "ano": 1979,
+    "genero": "Terror / Sci-Fi",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0078748/"
+  },
+  {
+    "titulo": "Oldboy",
+    "sinopse": "Após ser sequestrado e mantido em cativeiro por 15 anos sem motivo aparente, um homem é subitamente libertado e tem cinco dias para descobrir quem o aprisionou e por quê.",
+    "ano": 2003,
+    "genero": "Ação / Drama / Mistério",
+    "nota": "8.4",
+    "link": "https://www.imdb.com/title/tt0364569/"
+  },
+  {
+    "titulo": "The Pianist",
+    "sinopse": "Baseado em fatos reais, o pianista polonês Wladyslaw Szpilman luta para sobreviver em Varsóvia durante a Segunda Guerra Mundial e a ocupação nazista.",
+    "ano": 2002,
+    "genero": "Biografia / Drama / Música",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0253474/"
+  },
+  {
+    "titulo": "American History X",
+    "sinopse": "Um ex-chefe de uma gangue de supremacia branca tenta impedir que seu irmão mais novo siga o mesmo caminho destrutivo, após ele próprio ter passado por uma transformação na prisão.",
+    "ano": 1998,
+    "genero": "Drama",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0120586/"
+  },
+  {
+    "titulo": "The Prestige",
+    "sinopse": "Em Londres, no final do século XIX, dois mágicos rivais se envolvem em uma obsessiva batalha para criar a ilusão final, fazendo sacrifícios terríveis em nome da arte e da competição.",
+    "ano": 2006,
+    "genero": "Drama / Mistério / Sci-Fi",
+    "nota": "8.5",
+    "link": "https://www.imdb.com/title/tt0482571/"
+  },
+  {
+    "titulo": "M",
+    "sinopse": "Em Berlim, a polícia e o submundo do crime iniciam uma caçada frenética por um serial killer de crianças, que aterroriza a cidade. Um clássico do cinema expressionista alemão.",
+    "ano": 1931,
+    "genero": "Crime / Mistério / Thriller",
+    "nota": "8.3",
+    "link": "https://www.imdb.com/title/tt0022100/"
+  },
+  {
+    "titulo": "Sunset Blvd.",
+    "sinopse": "Um roteirista fracassado é acidentalmente atraído para a mansão de uma estrela de cinema silencioso esquecida, que sonha com um retorno e o contrata para revisar seu roteiro.",
+    "ano": 1950,
+    "genero": "Drama / Filme-Noir",
+    "nota": "8.4",
+    "link": "https://www.imdb.com/title/tt0043014/"
+  },
+  {
+    "titulo": "The Grand Budapest Hotel",
+    "sinopse": "As aventuras de Gustave H., um lendário concierge de um famoso hotel europeu entre guerras, e Zero Moustafa, o garoto do lobby que se torna seu amigo mais confiável.",
+    "ano": 2014,
+    "genero": "Aventura / Comédia / Drama",
+    "nota": "8.1",
+    "link": "https://www.imdb.com/title/tt2278388/"
+  },
+  {
+    "titulo": "Tokyo Story",
+    "sinopse": "Um casal de idosos viaja a Tóquio para visitar seus filhos adultos, que estão muito ocupados para lhes dar atenção, resultando em uma profunda reflexão sobre o envelhecimento e laços familiares no Japão pós-guerra.",
+    "ano": 1953,
+    "genero": "Drama",
+    "nota": "8.2",
+    "link": "https://www.imdb.com/title/tt0046322/"
+  },
+  {
+    "titulo": "Bicycle Thieves",
+    "sinopse": "Em Roma, um pai pobre tem sua bicicleta roubada, ferramenta essencial para o seu novo emprego. Ele e seu filho embarcam em uma busca desesperada pela cidade para recuperá-la.",
+    "ano": 1948,
+    "genero": "Drama",
+    "nota": "8.3",
+    "link": "https://www.imdb.com/title/tt0040522/"
+  },
+  {
+    "titulo": "A Clockwork Orange",
+    "sinopse": "Em uma futurista Grã-Bretanha distópica, um jovem delinquente sociopata é preso e submetido a uma controversa terapia de aversão para curar sua violência.",
+    "ano": 1971,
+    "genero": "Crime / Drama / Sci-Fi",
+    "nota": "8.3",
+    "link": "https://www.imdb.com/title/tt0066921/"
+  },
+  {
+    "titulo": "Stand by Me",
+    "sinopse": "Quatro garotos na década de 1950 viajam pelo interior para encontrar o corpo de uma criança desaparecida, em uma aventura que se torna uma jornada de autodescoberta e amizade.",
+    "ano": 1986,
+    "genero": "Aventura / Drama",
+    "nota": "8.1",
+    "link": "https://www.imdb.com/title/tt0092005/"
+  },
+  {
+    "titulo": "Eternal Sunshine of the Spotless Mind",
+    "sinopse": "Após um doloroso rompimento, Joel e Clementine se submetem a um procedimento para apagar todas as memórias que tinham um do outro. No entanto, Joel percebe que ainda quer manter algumas lembranças.",
+    "ano": 2004,
+    "genero": "Drama / Romance / Sci-Fi",
+    "nota": "8.3",
+    "link": "https://www.imdb.com/title/tt0338013/"
+  },
+  {
+    "titulo": "Game of Thrones",
+    "sinopse": "Nove famílias nobres lutam pelo controle sobre as terras míticas de Westeros, enquanto um antigo inimigo retorna após estar adormecido por milhares de anos.",
+    "ano": 2011,
+    "genero": "Fantasia / Drama",
+    "nota": "9.2",
+    "link": "https://www.imdb.com/title/tt0944947/"
+  },
+  {
+    "titulo": "Stranger Things",
+    "sinopse": "Quando um garoto desaparece, sua mãe, um chefe de polícia e seus amigos devem enfrentar forças aterrorizantes para trazê-lo de volta.",
+    "ano": 2016,
+    "genero": "Terror / Sci-Fi",
+    "nota": "8.7",
+    "link": "https://www.imdb.com/title/tt4574334/"
+  },
+  {
+    "titulo": "The Sopranos",
+    "sinopse": "O chefe da máfia de Nova Jersey, Tony Soprano, lida com problemas pessoais e profissionais em sua vida doméstica e empresarial que afetam seu estado mental.",
+    "ano": 1999,
+    "genero": "Crime / Drama",
+    "nota": "9.2",
+    "link": "https://www.imdb.com/title/tt0141842/"
+  },
+  {
+    "titulo": "Chernobyl",
+    "sinopse": "Em abril de 1986, uma explosão na usina nuclear de Chernobyl, na União das Repúblicas Socialistas Soviéticas, torna-se um dos piores desastres provocados pelo homem na história.",
+    "ano": 2019,
+    "genero": "Drama / Histórico",
+    "nota": "9.3",
+    "link": "https://www.imdb.com/title/tt9114286/"
+  },
+  {
+    "titulo": "Black Mirror",
+    "sinopse": "Uma série de antologia que explora um mundo distorcido e de alta tecnologia onde as maiores inovações da humanidade e os instintos mais sombrios colidem.",
+    "ano": 2011,
+    "genero": "Sci-Fi / Drama",
+    "nota": "8.7",
+    "link": "https://www.imdb.com/title/tt2085059/"
+  },
+  {
+    "titulo": "Friends",
+    "sinopse": "Acompanhe as vidas pessoais e profissionais de seis amigos de vinte a trinta e poucos anos vivendo em Manhattan.",
+    "ano": 1994,
+    "genero": "Comédia / Romance",
+    "nota": "8.9",
+    "link": "https://www.imdb.com/title/tt0108778/"
+  },
+  {
+    "titulo": "The Office (US)",
+    "sinopse": "Um mocumentário sobre um grupo de funcionários de escritório típicos, onde a jornada de trabalho consiste em choques de ego e comportamentos inadequados.",
+    "ano": 2005,
+    "genero": "Comédia",
+    "nota": "9.0",
+    "link": "https://www.imdb.com/title/tt0386676/"
+  },
+  {
+    "titulo": "Sherlock",
+    "sinopse": "Uma atualização moderna encontra o famoso detetive e seu parceiro médico resolvendo crimes na Londres do século 21.",
+    "ano": 2010,
+    "genero": "Crime / Mistério",
+    "nota": "9.1",
+    "link": "https://www.imdb.com/title/tt1475582/"
+  }
+]
