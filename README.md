@@ -2,7 +2,7 @@
 
 ## 🖼️ Visualização do Projeto
 
-![Preview do MovieStack]([[https://via.placeholder.com/800x400/141414/e50914?text=Insira+o+Print+do+Seu+Site+Aqui](https://matheus-marques-dev.github.io/CatalogoFilmes/))
+![Preview do MovieStack](https://matheus-marques-dev.github.io/CatalogoFilmes/)
 *(Substitua este link pela imagem real do seu projeto)*](https://matheus-marques-dev.github.io/CatalogoFilmes/)
 
 ## Sobre o Projeto
