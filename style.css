@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-* { box-sizing: border-box; }
+* {
+    box-sizing: border-box;
+}
 
 :root {
     --primary-color: #e50914;
@@ -10,6 +12,7 @@
     --bg-color: #141414;
     --card-bg: #1f1f1f;
     --card-border: #333;
+    --header-bg: rgba(20, 20, 20, 0.95);
 }
 
 body {
@@ -17,31 +20,34 @@ body {
     background: var(--bg-color);
     color: var(--secondary-color);
     font-family: "Quicksand", sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 
-/* --- HEADER E CONTROLES --- */
+/* HEADER */
 header {
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 5%; 
     display: flex;
     flex-direction: column;
     align-items: center;
     position: sticky;
     top: 0;
-    background: rgba(20, 20, 20, 0.95);
+    background: var(--header-bg);
     backdrop-filter: blur(10px);
     z-index: 100;
     border-bottom: 1px solid #333;
     gap: 1.5rem;
+    width: 100%;
 }
 
 header h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin: 0;
     color: var(--primary-color);
     letter-spacing: 2px;
+    text-align: center;
 }
 
+/* Controles */
 .controles {
     display: flex;
     flex-direction: column;
@@ -59,13 +65,19 @@ header h1 {
 
 .busca-container input {
     width: 100%;
-    max-width: 500px;
-    padding: 0.8rem 1rem;
+    max-width: 600px; 
+    padding: 0.8rem 1.2rem;
     border-radius: 50px;
     border: 1px solid #444;
-    background: #000;
+    background: #080808;
     color: #fff;
     font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.busca-container input:focus {
+    outline: none;
+    border-color: var(--primary-color);
 }
 
 .busca-container button {
@@ -77,9 +89,12 @@ header h1 {
     font-weight: bold;
     cursor: pointer;
     transition: 0.2s;
+    font-size: 1.2rem;
 }
 
-.busca-container button:hover { background: var(--primary-hover); }
+.busca-container button:hover {
+    background: var(--primary-hover);
+}
 
 .filtros-container {
     display: flex;
@@ -87,22 +102,34 @@ header h1 {
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
+    width: 100%;
 }
 
-.tags-filtro { display: flex; gap: 10px; flex-wrap: wrap; }
+/* Tags (Botões de Filtro) */
+.tags-filtro {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
 
 .filtro-btn {
     background: transparent;
     border: 1px solid #555;
     color: #ccc;
-    padding: 6px 16px;
-    border-radius: 20px;
+    padding: 8px 20px;
+    border-radius: 25px;
     cursor: pointer;
     transition: 0.3s;
     font-family: inherit;
+    font-size: 0.9rem;
+    white-space: nowrap;  
 }
 
-.filtro-btn:hover { border-color: #fff; color: #fff; }
+.filtro-btn:hover {
+    border-color: #fff;
+    color: #fff;
+    background: rgba(255,255,255,0.1);
+}
 
 .filtro-btn.ativo {
     background: #fff;
@@ -111,92 +138,103 @@ header h1 {
     font-weight: 700;
 }
 
-/* Select de Ordenação */
+
 select {
-    padding: 6px 12px;
+    padding: 8px 12px;
     border-radius: 5px;
     background: #222;
     color: #fff;
     border: 1px solid #555;
     font-family: inherit;
     cursor: pointer;
+    min-width: 150px;
 }
 
-/* --- MAIN & GRID --- */
 main {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     margin-top: 2rem;
-    padding: 0 2rem 80px 2rem;
+    padding: 0 5% 80px 5%;
     min-height: calc(100vh - 300px);
 }
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 2rem;
     width: 100%;
 }
 
-/* --- CARD --- */
+
 article {
     background: var(--card-bg);
     border-radius: 8px;
     padding: 1rem;
     border: 1px solid var(--card-border);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    position: relative; 
+    position: relative;
 }
 
 article:hover {
     transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
     border-color: #666;
 }
 
 .card-imagem {
     width: 100%;
-    height: 320px;
+    height: 380px; 
     object-fit: cover;
     border-radius: 4px;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
 }
 
-/* Botão Favorito (Coração) */
+
 .btn-favorito {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    background: rgba(0,0,0,0.6);
+    top: 15px;
+    right: 15px;
+    background: rgba(0,0,0,0.7);
     border: none;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+    font-size: 1.4rem;
     cursor: pointer;
     color: #ccc;
-    transition: 0.3s;
+    transition: all 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
-.btn-favorito:hover { transform: scale(1.1); background: rgba(0,0,0,0.9); }
-.btn-favorito.favoritado { color: var(--primary-color); }
-
-article h2 {
-    font-size: 1.2rem;
-    margin: 0 0 0.5rem 0;
+.btn-favorito:hover {
+    transform: scale(1.1);
+    background: rgba(255,255,255,0.1);
     color: #fff;
 }
 
+.btn-favorito.favoritado {
+    color: var(--primary-color);
+    background: rgba(0,0,0,0.8);
+}
+
+article h2 {
+    font-size: 1.3rem;
+    margin: 0 0 0.5rem 0;
+    color: #fff;
+    line-height: 1.2;
+}
+
 .info-rapida {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: #aaa;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
 }
 
 .nota-badge {
@@ -205,7 +243,7 @@ article h2 {
     padding: 4px 8px;
     border-radius: 4px;
     font-weight: bold;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     display: inline-flex;
     align-items: center;
     gap: 5px;
@@ -215,8 +253,8 @@ article h2 {
 .btn-detalhes {
     display: block;
     width: 100%;
-    padding: 10px;
-    margin-top: 1rem;
+    padding: 12px;
+    margin-top: 1.2rem;
     background: transparent;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
@@ -226,6 +264,7 @@ article h2 {
     font-weight: 600;
     transition: 0.2s;
     font-family: inherit;
+    font-size: 1rem;
 }
 
 .btn-detalhes:hover {
@@ -233,9 +272,10 @@ article h2 {
     color: white;
 }
 
+
 .skeleton {
     background-color: #222;
-    height: 450px;
+    height: 500px;
     border-radius: 8px;
     animation: pulse 1.5s infinite;
 }
@@ -246,11 +286,12 @@ article h2 {
     100% { opacity: 1; }
 }
 
+
 #modal-overlay {
     position: fixed;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.85);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -258,6 +299,7 @@ article h2 {
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease;
+    padding: 20px; 
 }
 
 #modal-overlay.aberto {
@@ -267,55 +309,77 @@ article h2 {
 
 .modal-content {
     background: #181818;
-    width: 90%;
-    max-width: 800px;
-    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
     padding: 2rem;
     position: relative;
     border: 1px solid #333;
     box-shadow: 0 0 50px rgba(0,0,0,0.9);
+    max-height: 90vh;
+    overflow-y: auto; 
 }
 
 .fechar-modal {
     position: absolute;
     top: 15px; right: 20px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #fff;
     cursor: pointer;
+    line-height: 0.8;
+    z-index: 10;
 }
 
 .modal-body {
     display: flex;
     gap: 2rem;
+    align-items: flex-start;
 }
 
 .modal-img {
-    width: 300px;
+    width: 320px;
     border-radius: 8px;
-    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
 }
 
-.modal-info h2 { font-size: 2rem; color: var(--primary-color); }
-.modal-info p { line-height: 1.6; color: #ccc; }
+.modal-info h2 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+.modal-info p {
+    line-height: 1.6;
+    color: #ddd;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
 .btn-imdb {
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     background: #f5c518;
     color: #000;
-    padding: 10px 20px;
+    padding: 12px 24px;
     text-decoration: none;
     border-radius: 4px;
     font-weight: bold;
+    transition: transform 0.2s;
 }
+
+.btn-imdb:hover { transform: scale(1.05); }
 
 .footer {
     position: fixed;
     bottom: 0; left: 0;
     width: 100%;
     background: var(--bg-color);
-    padding: 10px;
+    padding: 15px;
     border-top: 1px solid #333;
     text-align: center;
+    z-index: 90;
 }
 
 .footer-links {
@@ -326,9 +390,54 @@ article h2 {
 .footer-links a:hover { color: var(--primary-color); }
 
 
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-color); }
+::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--primary-color); }
+
+
+@media (max-width: 1024px) {
+    .modal-img { width: 250px; }
+    .modal-info h2 { font-size: 2rem; }
+}
+
+
 @media (max-width: 768px) {
-    .filtros-container { justify-content: center; }
-    .card-container { grid-template-columns: 1fr; }
+  
+    header { padding: 1rem; gap: 1rem; }
+    header h1 { font-size: 1.8rem; }
+    
+
+    .filtros-container {
+        flex-direction: column;
+        align-items: stretch; 
+        gap: 1rem;
+    }
+    
+ 
+    .tags-filtro {
+        flex-wrap: nowrap; 
+        overflow-x: auto; 
+        padding-bottom: 10px; 
+        -webkit-overflow-scrolling: touch; 
+    }
+    
+    select { width: 100%; }
+
+
+    .card-container {
+     
+        grid-template-columns: 1fr; 
+        gap: 1.5rem;
+    }
+    
+    .card-imagem { height: auto; max-height: 500px; }
+
+ 
+    .modal-content { padding: 1.5rem; }
     .modal-body { flex-direction: column; align-items: center; }
-    .modal-img { width: 100%; max-width: 250px; }
+    .modal-img { width: 100%; max-width: 300px; margin-bottom: 1.5rem; }
+    .modal-info h2 { font-size: 1.8rem; text-align: center; }
+    .modal-info p { font-size: 1rem; }
+    .btn-imdb { width: 100%; text-align: center; }
 }
