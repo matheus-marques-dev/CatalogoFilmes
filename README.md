@@ -2,13 +2,13 @@
 
 > Um catálogo interativo de filmes e séries que simula a interface de plataformas de streaming, com foco em performance e experiência do usuário.
 
-##Sobre o Projeto
+# Sobre o Projeto
 
 O **MovieStack** é uma aplicação Front-end desenvolvida para consolidar conhecimentos em manipulação do DOM, consumo de APIs e layouts responsivos modernos.
 
 O sistema carrega dinamicamente uma lista de filmes e séries a partir de um arquivo JSON e oferece uma interface de busca reativa, permitindo que o usuário encontre títulos instantaneamente sem recarregar a página.
 
-### Principais Funcionalidades
+# Principais Funcionalidades
 
 - **Busca Avançada em Tempo Real:**
   - O algoritmo de filtro verifica **Título**, **Gênero** e **Ano de Lançamento** simultaneamente.
@@ -23,7 +23,7 @@ O sistema carrega dinamicamente uma lista de filmes e séries a partir de um arq
 
 ---
 
-##Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - **HTML5:** Estrutura semântica e acessível.
 - **CSS3:**
@@ -37,7 +37,7 @@ O sistema carrega dinamicamente uma lista de filmes e séries a partir de um arq
 
 ---
 
-##Estrutura do Projeto
+# Estrutura do Projeto
 
 ```bash
 MovieStack/
