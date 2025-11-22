@@ -9,7 +9,7 @@
 
 O MovieStack é o resultado prático de uma semana intensiva de aprendizado. O objetivo foi criar uma aplicação Front-end do zero, utilizando inteligência artificial (Google Gemini) como ferramenta de apoio para acelerar o desenvolvimento e otimizar o código.
 
-O projeto simula uma interface de streaming (VOD), focando em **lógica de programação com JavaScript e design responsivo.
+O projeto simula uma interface de streaming (VOD), focando em lógica de programação com JavaScript e design responsivo.
 
 ### Funcionalidades Implementadas
 
@@ -33,7 +33,7 @@ O projeto simula uma interface de streaming (VOD), focando em **lógica de progr
 
 ## Estrutura do Projeto
 
-bash
+```bash
 MovieStack/
 ├── index.html      # Estrutura e Modal
 ├── style.css       # Estilos e Responsividade
